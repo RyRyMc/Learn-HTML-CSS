@@ -100,3 +100,73 @@ Example of using both:
 
 ### Italicize Text with Emphasis
 There are two ways to italicize text in HTML:
+
+* ***\<em>*** is an element that semantically means *"stress emphasis"*.
+* ***\<i>*** is an element that semantically means *"strong importance"*
+
+Example of using both:
+
+#### HTML
+```html
+<!-- Stressed emphasis -->
+<p>I <em>love</em> Chicago!</p>
+
+<!-- Alternative voice or tone -->
+<p>The name <i>Shay</i> means a gift.</p>
+```
+
+#### Results
+> <p>I <em>love</em> Tulsa!</p>
+
+> <p>The name <i>Ryan</i> means little king.</p>
+
+## Building Structure
+HTML5 includes structurally based elements that give intentionality to the sections of a website.
+
+### Header
+The \<header> element is used to identify the top of a page, article, section, or segment of a page.
+
+#### HTML
+```html
+<header>...</header>
+```
+
+### Navigation
+The \<nav> element identifies a section of major navigational links.
+
+#### HTML
+```html
+<nav>...</nav>
+```
+
+### Article
+The \<article> element is used to identify a section of independent, self-contained content that may be independently distributed or reused.
+
+#### HTML
+```html
+<article>...</article>
+```
+
+### Section
+The \<section> element is used to identify a thematic grouping of content, which generally, but not always, includes a heading.
+
+#### HTML
+```html
+<section>...</section>
+```
+
+### Aside
+The \<aside> element holds content, such as sidebars, inserts, or brief explanations, that is tangentially related to the content surrounding it.
+
+#### HTML
+```html
+<aside>...</aside>
+```
+
+### Footer
+The \<footer> identifies the closing or end of a page, article, section, or other segment  of a page.
+
+#### HTML
+```html
+<footer>...</footer>
+```

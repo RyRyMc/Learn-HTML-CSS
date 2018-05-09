@@ -170,3 +170,18 @@ The \<footer> identifies the closing or end of a page, article, section, or othe
 ```html
 <footer>...</footer>
 ```
+
+## Creating Hyperlinks
+Hyperlinks provide the ability to link from one web page or resource to another. 
+
+Hyperlinks are established using the \<a> anchor tag, which is an inline element, and an href attribute.
+
+Example of hyperlink:
+
+#### HTML
+```html
+<a href="http://ryanmccall.com">Ryan</a>
+```
+
+#### Results
+> <a href="http://rya.com">Ryan</a>

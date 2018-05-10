@@ -185,3 +185,88 @@ Example of hyperlink:
 
 #### Results
 > <a href="http://rya.com">Ryan</a>
+
+### Relative and Absolute Paths
+Links have two common types: *relative* path and *absolute* path
+
+* ***Relative*** path links point to other pages on the same website.
+  * omit the domain (.com, .org, .edu) in the href
+* ***Absolute*** path links point to other websites
+  * include the full href (http://google.com)
+
+Example of Hyperlinks:
+
+#### HTML
+```html
+<!-- Relative Path -->
+<a href="about.html">About</a>
+
+<!-- Absolute Path -->
+<a href="http://www.google.com/">Google</a>
+```
+
+#### Results
+> <!-- Relative Path -->
+> <a href="about.html">About</a>
+
+> <!-- Absolute Path -->
+> <a href="http://www.google.com/">Google</a>
+
+### Linking to an Email Address
+Creating a hyperlink that links to an email is easy as adjusting the href
+
+* Add *mailto:* followed my the email address to automatically open the user email service of choice with you email automatically generated to the *To:* section
+* Follow the email address with *?* to add specific information to the email and separate them with *&*
+  * *subject=* to auto-generate the subject of the email
+    * Separate each word with %20
+  * *body=* to auto-generate the body of the email
+    * Separate each word with %20
+    
+Example of email hyperlink:
+
+#### HTML
+```html
+<a href="mailto:ryan@awesome.com?subject=Reaching%20Out&body=How%20are%20you">Email Me</a>
+```
+
+#### Results
+> <a href="mailto:shay@awesome.com?subject=Reaching%20Out&body=How%20are%20you">Email Me</a>
+
+### Opening Links in a New Window
+Creating a link that opens in another window takes one addition to the link.
+
+* Add a *target=* attributte and setting it to *"_blank"*
+
+Example of a link that opens in a new window:
+
+#### HTML
+```html
+<a href="http://ryanmccall.com/" target="_blank">Ryan McCall</a>
+```
+
+#### Results
+> <a href="http://ryanmccall.com/" target="_blank">Ryan McCall</a>
+
+### Linking to Parts of the Same Page
+Creating a link to a part of the same page takes two steps
+
+* Add an *id* attribute to the element you wish to link to on the page
+* link the href to the id with a #
+
+Example of linking to parts of the same page:
+
+#### HTML
+```html
+<body id="top">
+  ...
+  <a href="#top">Back to top</a>
+  ...
+</body>
+```
+
+#### Results
+<body id="top">
+  ...
+  <a href="#top">Back to top</a>
+  ...
+</body>

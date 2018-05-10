@@ -1,5 +1,27 @@
 # *Notes* Chapter 2: Getting to Know HTML
 
+* [Semantics Overview](#semantics-overview)
+* [Identifying Divisions & Spans](#identifying-divisions--spans)
+  * [Block vs. Inline Elements](#block-vs-inline-elements)
+  * [Comments within HTML & CSS](#comments-within-html--css)
+* [Using Text-Based Elements](#using-text--based-elements)
+  * [Headings](#heading)
+  * [Paragraphs](#paragraphs)
+  * [Bold Text with Strong](#bold-text-with-strong)
+  * [Italicize Text with Emphasis](#italicize-text-with-emphasis)
+* [Building Structure](#building-structure)
+  * [Header](#header)
+  * [Navigation](#navigation)
+  * [Article](#article)
+  * [Section](#section)
+  * [Aside](#aside)
+  * [Footer](#footer)
+* [Creating Hyperlinks](#creating-hyperlinks)
+  * [Relative and Absolute Paths](#relative-and-absolute-paths)
+  * [Linking to an Email Address](#linking-to-an-email-address)
+  * [Opening Links in a New Window](#opening-links-in-a-new-window)
+  * [Linking to Parts of the Same Page](#linking-to-parts-of-the-same-page)
+
 ## Semantics Overview
 HTML Semantics is the practice of giving content on the page meaning and structure by using the proper element.
 

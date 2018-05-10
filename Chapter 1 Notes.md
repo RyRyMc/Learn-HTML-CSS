@@ -1,5 +1,22 @@
 # *Notes* Chapter 1: Building Your First Web Page
 
+* [What is HTML & CSS?](#what-is-html---css-)
+* [Understanding Common HTML Terms](#understanding-common-html-terms)
+	* [Elements](#elements)
+	* [Tags](#tags)
+	* [Attributes](#attributes)
+* [Setting Up the HTML Document Structure](#setting-up-the-html-document-structure)
+* [Understanding Common CSS Terms](#understanding-common-css-terms)
+	* [Selectors](#selectors)
+	* [Properties](#properties)
+	* [Values](#values)
+* [Working with Selectors](#working-with-selectors)
+	* [Type Selectors](#type-selectors)
+	* [Class Selectors](#class-selectors)
+	* [ID Selectors](#id-selectors)
+* [Referencing CSS](#referencing-css)
+* [Using CSS Resets](#using-css-resets)
+
 ## What is HTML & CSS?
 HTML stands for HyperText Markup Language. This language is used to provide the structure of the webpage.
 
@@ -28,7 +45,7 @@ Tags help define how the content inbetween them is to be displayed.
 ### Attributes
 Attributes appear inside the opening tag after the element. They are used to provide additional information about the element.
 
-## Setting Up the HTML Document Stucture
+## Setting Up the HTML Document Structure
 HTML documents are saved in a file ending in **.html** and follow the same structure.
 
 #### HTML

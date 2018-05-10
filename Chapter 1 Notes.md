@@ -1,6 +1,6 @@
 # *Notes* Chapter 1: Building Your First Web Page
 
-* [What is HTML & CSS?](#what-is-html---css-)
+* [What is HTML & CSS?](#what-is-html--css)
 * [Understanding Common HTML Terms](#understanding-common-html-terms)
 	* [Elements](#elements)
 	* [Tags](#tags)

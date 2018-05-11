@@ -1,5 +1,26 @@
 # ***Notes*** Chapter 3: Getting to Know CSS
 
+* [The Cascade](#the-cascade)
+  * [Cascading Properties](#cascading-properties)
+* [Calculating Specificity](#calculating-specificity)
+* [Combining Selectors](#combining-selectors)
+  * [Spaces Within Selectors](#spaces-within-selectors)
+  * [Specificity with Combined Selectors](#specificity-with-combined-selectors)
+* [Layering Styles with Multiple Classes](#layering-styles-with-multiple-classes)
+* [Common CSS Property Values](#common-css-property-values)
+  * [Colors](#colors)
+    * [Keyword Colors](#keyword-colors)
+    * [Hexadecimal Colors](#hexadecimal-colors)
+    * [RGB & RGBa Colors](#rgb--rgba-colors)
+    * [HSL & HSLa Colors](#hsl--hsla-colors)
+  * [Lengths](#lengths)
+    * [Absolute Lengths](#absolute-lengths)
+      * [Pixels](#pixels)
+    * [Relative Lengths](#relative-lengths)
+      * [Percentages](#percentages)
+      * [Em](#em)
+      
+
 ## The Cascade
 
 Within CSS, all styles cascade from the top of a sheet to the bottom.
@@ -74,7 +95,7 @@ In the second selector, there is no space between p.mustard, which means that th
 
 ***Best Practice is to not prequalify a class***
 
-### Specifitcity with Combined Selectors
+### Specificity with Combined Selectors
 Looking back at *.hotdog p*, there is a class selector and a type selector giving it a specificity of 0-1-1.
 
 The second selector *.hotdog p.mustard*, has two class selectors and a type selector giving it a specificy of 0-2-1.
